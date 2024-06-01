@@ -1,10 +1,15 @@
+import React from 'react';
 import './index.css';
+import Home from './pages/homePage.jsx';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      Saas app
-      </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 
