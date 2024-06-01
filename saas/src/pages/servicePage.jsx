@@ -1,16 +1,16 @@
 import React from 'react'
-import About from '../Components/About/about'
 import Navbar from '../Components/Navbar/navbar';
 import Footer from '../Components/Footer/footer';
+import Service from '../Components/Service/service';
 
-const aboutPage = () => {
+const servicePage = () => {
   return (
     <div>
-        <Navbar/>
-        <About/>
+        <Navbar />
+        <Service/>
         <Footer/>
     </div>
   )
 }
 
-export default aboutPage
+export default servicePage

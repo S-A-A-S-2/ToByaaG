@@ -1,0 +1,6 @@
+*{
+    scroll-behavior: smooth;
+    transition-duration: 0.5s;
+    margin: 0;
+    padding: 0;
+}
