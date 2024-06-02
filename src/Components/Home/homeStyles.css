@@ -1,7 +1,12 @@
 /* src/pages/homePage.css */
 .home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 40px 20px;
   max-width: 1200px;
+  height: 80vh;
   margin: auto;
   text-align: center;
 }
