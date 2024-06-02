@@ -1,9 +1,14 @@
 /* src/pages/contactPage.css */
 .contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 40px 20px;
   max-width: 800px;
   margin: auto;
   text-align: center;
+  height: 80vh;
 }
 
 .contact-container h1 {

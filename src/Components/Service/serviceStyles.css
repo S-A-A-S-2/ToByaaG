@@ -1,9 +1,14 @@
 /* src/pages/servicesPage.css */
 .services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 40px 20px;
   max-width: 1200px;
   margin: auto;
   text-align: center;
+  height: 80vh;
 }
 
 .services-title {
