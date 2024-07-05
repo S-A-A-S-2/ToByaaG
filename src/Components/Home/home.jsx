@@ -5,25 +5,25 @@ import './homeStyles.css';
 const Home = () => {
   return (
     <div className="home-container">
-      <h1>Welcome to Our SaaS Company</h1>
+      <h1>Welcome to 2🐝yaaG <br/></h1>
       <p>
-        We provide innovative solutions for businesses to succeed in the digital world.
+        "Your community for career empowerment!"
       </p>
       <div className="home-features">
         <div className="feature-item">
           <i className="fas fa-cogs"></i>
-          <h3>Custom Solutions</h3>
-          <p>Our services are tailored to meet your unique business needs.</p>
+          <h3>How are we?</h3>
+          <p>Tap To Know more.</p>
         </div>
         <div className="feature-item">
           <i className="fas fa-shield-alt"></i>
-          <h3>Security First</h3>
-          <p>We prioritize security to keep your data safe and secure.</p>
+          <h3>Our Story</h3>
+          <p>Tap To Know more.</p>
         </div>
         <div className="feature-item">
           <i className="fas fa-mobile-alt"></i>
-          <h3>Responsive Design</h3>
-          <p>Our applications are designed to work seamlessly on all devices.</p>
+          <h3>Join Now!</h3>
+          <p>Tap To Know more.</p>
         </div>
       </div>
     </div>

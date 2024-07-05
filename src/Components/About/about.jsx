@@ -8,8 +8,16 @@ const About = () => {
       <div className="about-content">
         <h1>About Us</h1>
            <p>
-        Our SaaS company is dedicated to providing tailored software solutions for microenterprises. We understand the unique challenges faced by small businesses and strive to empower them with cost-effective tools to thrive in today's digital landscape.
-      </p>
+        
+        Our community originated from the concerns and challenges students encounter when choosing a career path after high school or the 10th standard. By providing proper guidance during these times, we can help cultivate a workforce that enjoys their job. At the very least, we can prevent someone from pursuing the wrong degree and dispel confusion and misconceptions related to various degrees or fields.
+
+Our community is bridging gaps with unique approaches and preparing roadmaps for every field. These roadmaps will guide us on the course to follow, the activities to undertake to reach our goals, and assist others in choosing their path.
+
+To create these roadmaps, we will consult with professionals in these fields, mainly those who are retired. We will seek their guidance and collect their experiences to benefit students. Older people often share their stories and provide guidance, so we will utilize these narratives.
+
+There are many unheard stories out there. We plan to share these through our community and emphasize that every little thing matters. Every field has its own uniqueness and a way to excel in it.
+        
+              </p>
       <p>
         Our mission is to offer dedicated software applications that can be run locally on your system, eliminating the need for complex infrastructure and reducing operational costs. With our user-friendly interfaces and scalable solutions, microenterprise owners can focus on their core business activities while leveraging technology to drive growth.
       </p>

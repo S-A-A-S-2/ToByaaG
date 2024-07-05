@@ -1,0 +1,154 @@
+/* src/components/Login.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.login-form {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.login-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+}
+
+.login-input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.login-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 8px rgba(59, 130, 246, 0.5);
+  outline: none;
+}
+
+.forgot-password {
+  display: block;
+  margin: 10px 0 20px;
+  color: #19191a;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-bottom: 15px;
+}
+
+.login-button:hover {
+  background-color: #333333;
+}
+
+.login-button:active {
+  background-color: #1a1a1a;
+  transform: scale(0.98);
+}
+
+.or-divider {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.oauth-button {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  margin-bottom: 10px;
+}
+
+.oauth-button:hover {
+  background-color: #f3f4f6;
+}
+
+.oauth-button:active {
+  background-color: #e2e3e5;
+  transform: scale(0.98);
+}
+
+.oauth-button.github {
+  border-color: #333;
+  color: #333;
+}
+
+.oauth-button.github:hover {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.oauth-button.google {
+  border-color: #db4437;
+  color: #db4437;
+}
+
+.oauth-button.google:hover {
+  background-color: #db4437;
+  color: #ffffff;
+}
+
+.oauth-button.byaag {
+  border-color: #000;
+  color: #000;
+}
+
+.oauth-button.byaag:hover {
+  background-color: #000;
+  color: #ffffff;
+}
+
+.signup-link {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.signup-link .sign-up {
+  color: #19191a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-link .sign-up:hover {
+  text-decoration: underline;
+}
