@@ -14,7 +14,7 @@
 .team-container {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 30px;
   flex-wrap: wrap;
 }
 
@@ -42,12 +42,12 @@
 }
 
 .member-avatar {
-  width: 200px;
-  height: 200px;
-  border-radius: 10px;
+  width: 300px;
+  height: 350px;
+  border-radius: 20px;
   overflow: hidden;
   margin: 0 auto;
-  background-color: #f1f1f1; /* Light gray background */
+  background-color: #434547; /* Light gray background */
   display: flex;
   justify-content: center;
   align-items: center;
