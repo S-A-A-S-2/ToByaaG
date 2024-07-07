@@ -3,11 +3,11 @@ import './index.css';
 import Home from './pages/homePage.jsx';
 import About from './pages/aboutPage.jsx';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Team from './Components/Team/Team.jsx';
+import Team from './pages/teamPage.jsx';
 
 // import Community from './pages/communityPage.jsx';
 // import Contact from './pages/contactPage.jsx';
-
+// import Login from './pages/loginPage.jsx;
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
 
         {/* <Route path='/community' element={<Community />} /> */}
         {/* <Route path='/contact' element={<Contact />} /> */}
+        {/* <Route path='/login' element={<Login />} /> */}
 
       </Routes>
     </Router>
